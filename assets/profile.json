@@ -134,7 +134,7 @@
       "period": "abr 2022 – presente | Bogotá, Colombia",
       "bullets": [
         "Lidero la migración de la capa media y transaccional a AWS/Azure (200+ servicios y microservicios).",
-        "Definí estándares de arquitectura (seguridad, observabilidad, resiliencia) y gobernanza de APIs.",
+        "Definir estándares de arquitectura (seguridad, observabilidad, resiliencia) y gobernanza de APIs.",
         "Impulsé CI/CD con Jenkins/GitLab, reduciendo 30% tiempos de despliegue y errores de release.",
         "Orquestación de squads (dev, QA, arquitectura) para proyectos de misión crítica 24/7."
       ]
