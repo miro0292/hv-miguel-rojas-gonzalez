@@ -1,0 +1,179 @@
+{
+  "name": "Miguel Rojas González",
+  "title": "Coordinador de Tecnología | Arquitectura de Soluciones | Backend Senior",
+  "location": "Bogotá, Colombia",
+  "email": "miro0292@gmail.com",
+  "phone": "+57 312 347 9640",
+  "linkedin": "https://www.linkedin.com/in/miguel-rojas-gonzalez-390583123",
+  "summary": "Ingeniero de Sistemas con 12+ años liderando proyectos de transformación digital en banca, telecom y aviación. Especialista en arquitectura de microservicios, desarrollo backend con Java/Spring Boot, migraciones a AWS/Azure y automatización CI/CD. Enfoque a resultados, seguridad, escalabilidad y trabajo con equipos multidisciplinarios.",
+  "stats": [
+    {
+      "label": "Proyectos misión crítica",
+      "value": "30+"
+    },
+    {
+      "label": "Servicios/microservicios migrados",
+      "value": "200+"
+    },
+    {
+      "label": "Disponibilidad objetivo",
+      "value": "99.9%"
+    },
+    {
+      "label": "Liderazgo de equipos",
+      "value": "10-20 devs"
+    }
+  ],
+  "skills": [
+    {
+      "group": "Backend",
+      "items": [
+        {
+          "name": "Java",
+          "level": 95
+        },
+        {
+          "name": "Spring Boot",
+          "level": 92
+        },
+        {
+          "name": "Quarkus",
+          "level": 78
+        },
+        {
+          "name": ".NET",
+          "level": 70
+        },
+        {
+          "name": "Node.js",
+          "level": 68
+        }
+      ]
+    },
+    {
+      "group": "Cloud & DevOps",
+      "items": [
+        {
+          "name": "AWS (ECS, Lambda, S3, CW)",
+          "level": 85
+        },
+        {
+          "name": "Azure (Functions, App Service)",
+          "level": 78
+        },
+        {
+          "name": "Docker",
+          "level": 88
+        },
+        {
+          "name": "Kubernetes",
+          "level": 72
+        },
+        {
+          "name": "CI/CD (Jenkins, GitLab)",
+          "level": 82
+        }
+      ]
+    },
+    {
+      "group": "Integración & APIs",
+      "items": [
+        {
+          "name": "REST / SOAP",
+          "level": 95
+        },
+        {
+          "name": "API Connect / MQ / IIB",
+          "level": 86
+        },
+        {
+          "name": "OAuth2 / JWT",
+          "level": 90
+        },
+        {
+          "name": "Kafka",
+          "level": 70
+        }
+      ]
+    },
+    {
+      "group": "Datos & Observabilidad",
+      "items": [
+        {
+          "name": "SQL Server / PostgreSQL",
+          "level": 82
+        },
+        {
+          "name": "MongoDB / CouchDB",
+          "level": 75
+        },
+        {
+          "name": "CloudWatch / Grafana",
+          "level": 78
+        }
+      ]
+    },
+    {
+      "group": "IA & Analítica",
+      "items": [
+        {
+          "name": "Python (Pandas, scikit-learn)",
+          "level": 68
+        },
+        {
+          "name": "Power BI",
+          "level": 60
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "role": "Coordinador de Tecnología",
+      "company": "Banco Davivienda",
+      "period": "abr 2022 – presente | Bogotá, Colombia",
+      "bullets": [
+        "Lidero la migración de la capa media y transaccional a AWS/Azure (200+ servicios y microservicios).",
+        "Definí estándares de arquitectura (seguridad, observabilidad, resiliencia) y gobernanza de APIs.",
+        "Impulsé CI/CD con Jenkins/GitLab, reduciendo 30% tiempos de despliegue y errores de release.",
+        "Orquestación de squads (dev, QA, arquitectura) para proyectos de misión crítica 24/7."
+      ]
+    },
+    {
+      "role": "Líder Técnico / Integrador",
+      "company": "IBM / DXC / Stefanini / Algar / Nexos",
+      "period": "2018 – 2022 | Colombia",
+      "bullets": [
+        "Diseño e implementación de integraciones REST/SOAP, mensajería (MQ) y ETL en ecosistemas híbridos.",
+        "Construcción de APIs en Java/Spring Boot y .NET; gestión de despliegues en Azure y AWS.",
+        "Proyectos para banca (BBVA, Banco Popular), telco (Claro) y aviación (Avianca)."
+      ]
+    },
+    {
+      "role": "Desarrollador",
+      "company": "ACF Technologies USA",
+      "period": "2017 – 2019 | Remoto",
+      "bullets": [
+        "Mantenimiento y soporte de plataformas de atención al cliente (CRM/middleware)."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "Especialización en Alta Gerencia (en curso)",
+      "org": "Universidad de los Andes"
+    },
+    {
+      "title": "Especialización en Inteligencia Artificial (en curso)",
+      "org": "Pontificia Universidad Javeriana"
+    },
+    {
+      "title": "Ingeniería de Sistemas",
+      "org": "Universidad Central"
+    }
+  ],
+  "languages": [
+    "Español (nativo)",
+    "Inglés (intermedio-avanzado)"
+  ]
+}
