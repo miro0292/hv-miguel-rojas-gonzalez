@@ -175,5 +175,73 @@
   "languages": [
     "Español (nativo)",
     "Inglés (intermedio-avanzado)"
+  ],
+  "projects": [
+    {
+      "name": "Migración Capa Media & Transaccional",
+      "org": "Banco Davivienda",
+      "impact": [
+        "200+ servicios y microservicios en AWS/Azure",
+        "Reducción 30% TTM mediante CI/CD",
+        "Estándares de seguridad, observabilidad y resiliencia"
+      ],
+      "stack": [
+        "Java",
+        "Spring Boot",
+        "ECS/Lambda",
+        "API Gateway",
+        "RDS/SQL Server",
+        "CloudWatch"
+      ]
+    },
+    {
+      "name": "Plataforma de Integración MQ / API Connect",
+      "org": "BBVA / Banco Popular (vía IBM)",
+      "impact": [
+        "Exposición segura de APIs REST/SOAP para banca",
+        "Alta disponibilidad 24/7 con monitoreo y alertas",
+        "Trazabilidad punta a punta (logging estructurado)"
+      ],
+      "stack": [
+        "IBM MQ",
+        "API Connect",
+        "IIB",
+        "OAuth2/JWT",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Observabilidad y Telemetría Cloud",
+      "org": "Davivienda / Claro",
+      "impact": [
+        "Dashboards de SLO/SLI y alertas proactivas",
+        "Reducción de MTTR y mejoras en continuidad",
+        "Estandarización de logs y métricas"
+      ],
+      "stack": [
+        "CloudWatch",
+        "Grafana",
+        "Prometheus",
+        "OpenTelemetry"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect – Associate",
+      "status": "En curso"
+    },
+    {
+      "name": "Azure Administrator Associate (AZ-104)",
+      "status": "En curso"
+    },
+    {
+      "name": "Professional Scrum Master I (PSM I)",
+      "status": "Vigente"
+    },
+    {
+      "name": "IBM API Connect & Integration Basics",
+      "status": "Vigente"
+    }
   ]
 }

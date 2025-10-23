@@ -6,44 +6,54 @@
   <title>CV | Miguel Rojas González</title>
   <style>
     :root {
-      --bg: #0f172a;        /* slate-900 */
-      --panel: #111827;     /* gray-900 */
+      --bg: #0b1220;        /* deep navy */
+      --panel: #0e172a;     /* slate navy */
       --muted: #94a3b8;     /* slate-400 */
-      --text: #e5e7eb;      /* gray-200 */
-      --accent: #6366f1;    /* indigo-500 */
+      --text: #e6edf3;      /* light */
+      --accent: #2563eb;    /* blue-600 */
       --accent-2: #22d3ee;  /* cyan-400 */
+      --accent-3: #60a5fa;  /* blue-400 */
       --card: #0b1220;
-      --chip: #1f2937;
+      --chip: #0f1a33;
       --ok: #10b981;
+      --border: rgba(96,165,250,.35);
     }
     * { box-sizing: border-box; }
-    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Inter, Arial, sans-serif; }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: Inter, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
     a { color: var(--accent-2); text-decoration: none; }
     a:hover { text-decoration: underline; }
-    .wrap { max-width: 1024px; margin: 24px auto; padding: 24px; background: linear-gradient(180deg, rgba(17,24,39,.95), rgba(15,23,42,.95)); border-radius: 20px; border: 1px solid rgba(99,102,241,.25); }
-    header { display:flex; flex-wrap:wrap; gap: 16px; align-items: center; justify-content: space-between; border-bottom:1px solid rgba(148,163,184,.2); padding-bottom: 16px; }
-    .title h1 { margin: 0; font-size: 1.9rem; letter-spacing:.3px; }
-    .title p { margin: 6px 0 0; color: var(--muted); }
+    .wrap { max-width: 1080px; margin: 28px auto; padding: 28px; background: linear-gradient(180deg, rgba(14,23,42,.96), rgba(11,18,32,.96)); border-radius: 20px; border: 1px solid var(--border); }
+    header { display:flex; flex-wrap:wrap; gap: 16px; align-items: center; justify-content: space-between; border-bottom:1px solid rgba(96,165,250,.25); padding-bottom: 16px; }
+    .title h1 { margin: 0; font-size: 2rem; letter-spacing:.3px; }
+    .title p { margin: 6px 0 0; color: var(--accent-3); font-weight:600; }
     .contact { display:flex; flex-wrap:wrap; gap: 10px; }
-    .chip { background: var(--chip); padding: 8px 12px; border-radius: 999px; color: var(--text); font-size:.92rem; border:1px solid rgba(148,163,184,.18); }
+    .chip { background: linear-gradient(180deg, #0e1b36, #0b1530); padding: 8px 12px; border-radius: 999px; color: var(--text); font-size:.92rem; border:1px solid var(--border); }
     .grid { display:grid; grid-template-columns: repeat(12, 1fr); gap: 16px; margin-top: 18px; }
-    section { background: var(--card); border: 1px solid rgba(99,102,241,.15); border-radius: 16px; padding: 18px; }
+    section { background: radial-gradient(90% 120% at 10% 10%, rgba(37,99,235,.12), rgba(34,211,238,.06)), var(--card); border: 1px solid rgba(96,165,250,.2); border-radius: 16px; padding: 18px; }
     h2 { margin: 0 0 12px; font-size:1.2rem; color: var(--accent); letter-spacing:.4px; }
-    p { line-height: 1.55; }
+    p { line-height: 1.6; }
     .stats { display:grid; grid-template-columns: repeat(auto-fill,minmax(180px,1fr)); gap: 10px; }
-    .stat { background: #0a0f1a; padding: 12px; border-radius: 12px; border:1px solid rgba(34,211,238,.25); }
-    .stat .v { font-size:1.3rem; font-weight:700; }
+    .stat { background: #0a142a; padding: 12px; border-radius: 12px; border:1px solid rgba(34,211,238,.25); box-shadow: 0 0 0 1px rgba(96,165,250,.08) inset; }
+    .stat .v { font-size:1.25rem; font-weight:800; color:#eaf2ff; }
     .skills .item { margin: 12px 0; }
-    .skills .bar { height: 10px; background: #0a0f1a; border-radius: 999px; overflow:hidden; border:1px solid rgba(148,163,184,.2); }
-    .skills .bar > span { display:block; height: 100%; width:0; background: linear-gradient(90deg, var(--accent), var(--accent-2)); }
-    .group-title { color: var(--muted); margin-top: 8px; font-weight:600; }
+    .skills .bar { height: 10px; background: #0a1020; border-radius: 999px; overflow:hidden; border:1px solid rgba(148,163,184,.2); }
+    .skills .bar > span { display:block; height: 100%; width:0; background: linear-gradient(90deg, var(--accent), var(--accent-3)); }
+    .group-title { color: var(--muted); margin-top: 8px; font-weight:700; text-transform:uppercase; letter-spacing:.6px; }
     .job { margin-bottom: 14px; }
     .job h3 { margin: 0 0 6px; font-size:1.05rem; }
     .job .period { color: var(--muted); font-size:.95rem; margin-bottom: 8px; }
     .bullets { margin: 0; padding-left: 18px; line-height:1.45; }
+    .projects-grid { display:grid; grid-template-columns: repeat(auto-fill,minmax(260px,1fr)); gap: 12px; }
+    .project { background: #0a1428; border:1px solid rgba(96,165,250,.25); border-radius:12px; padding:12px; }
+    .project h4 { margin: 0 0 6px; color: var(--accent-3); }
+    .tags { display:flex; gap:6px; flex-wrap:wrap; margin-top:6px; }
+    .tag { background:#0d1b31; border:1px solid rgba(96,165,250,.35); color:#b6d4ff; padding:4px 8px; border-radius:999px; font-size:.8rem; }
+    .certs { display:grid; grid-template-columns: repeat(auto-fill,minmax(230px,1fr)); gap: 10px; }
+    .cert { background:#0a142a; border:1px solid rgba(34,211,238,.25); border-radius:12px; padding:10px; }
+    .cert b { color:#eaf2ff; }
     footer { margin-top: 12px; text-align:center; color: var(--muted); }
     .btns { display:flex; gap:10px; flex-wrap:wrap; margin-top:10px; }
-    .btn { background: linear-gradient(90deg, var(--accent), var(--accent-2)); color:#0b1220; padding:10px 14px; border-radius:10px; font-weight:700; border:0; cursor:pointer; }
+    .btn { background: linear-gradient(90deg, var(--accent), var(--accent-2)); color:#0b1220; padding:10px 14px; border-radius:10px; font-weight:800; border:0; cursor:pointer; }
     .btn.ghost { background: transparent; color: var(--accent-2); border:1px solid rgba(34,211,238,.5); }
     @media print {
       body { background: #fff; color:#111; }
@@ -75,7 +85,7 @@
       <p>Ingeniero de Sistemas con 12+ años liderando proyectos de transformación digital en banca, telecom y aviación. Especialista en arquitectura de microservicios, desarrollo backend con Java/Spring Boot, migraciones a AWS/Azure y automatización CI/CD. Enfoque a resultados, seguridad, escalabilidad y trabajo con equipos multidisciplinarios.</p>
       <div class="stats" id="stats"></div>
       <div class="btns">
-        <a class="btn" href="../CV_Miguel_Rojas_Gonzalez.pdf" download>⬇ Descargar PDF</a>
+        <a class="btn" href="./CV_Miguel_Rojas_Gonzalez.pdf" download>⬇ Descargar PDF</a>
         <button class="btn ghost" onclick="window.print()">🖨️ Imprimir / Guardar PDF</button>
       </div>
     </section>
@@ -96,9 +106,19 @@
       <h2 style="margin-top:16px;">Idiomas</h2>
       <ul id="languages" class="bullets"></ul>
     </section>
+
+    <section style="grid-column: span 12;">
+      <h2>Proyectos destacados</h2>
+      <div class="projects-grid" id="projects"></div>
+    </section>
+
+    <section style="grid-column: span 12;">
+      <h2>Certificaciones</h2>
+      <div class="certs" id="certs"></div>
+    </section>
   </div>
   <footer>
-    <p>© Miguel Rojas González — Portafolio CV. Tema neutral & moderno.</p>
+    <p>© Miguel Rojas González — Portafolio CV. Tema azul, moderno y atractivo.</p>
   </footer>
 </div>
 
@@ -131,9 +151,8 @@ async function load() {
           <span>${it.name}</span><span>${it.level}%</span></div>
         <div class="bar"><span style="width:${it.level}%"></span></div>`;
       skills.appendChild(wrap);
-      // Animate bar
       const bar = wrap.querySelector('.bar > span');
-      requestAnimationFrame(()=>{ bar.style.transition='width 800ms ease'; bar.style.width = it.level + '%'; });
+      requestAnimationFrame(()=>{ bar.style.transition='width 900ms cubic-bezier(.2,.7,.2,1)'; bar.style.width = it.level + '%'; });
     });
   });
 
@@ -162,6 +181,35 @@ async function load() {
     const li = document.createElement('li');
     li.textContent = l;
     langs.appendChild(li);
+  });
+
+  // Projects
+  const projects = document.getElementById('projects');
+  data.projects.forEach(p => {
+    const card = document.createElement('div');
+    card.className = 'project';
+    card.innerHTML = `<h4>${p.name}</h4>
+      <div style="color:var(--muted); margin-bottom:6px;">${p.org}</div>
+      <ul class="bullets">${p.impact.map(i=>`<li>${i}</li>`).join('')}</ul>`;
+    const tags = document.createElement('div');
+    tags.className = 'tags';
+    (p.stack||[]).forEach(t => {
+      const tg = document.createElement('span');
+      tg.className = 'tag';
+      tg.textContent = t;
+      tags.appendChild(tg);
+    });
+    card.appendChild(tags);
+    projects.appendChild(card);
+  });
+
+  // Certifications
+  const certs = document.getElementById('certs');
+  data.certifications.forEach(c => {
+    const el = document.createElement('div');
+    el.className = 'cert';
+    el.innerHTML = `<b>${c.name}</b><br/><span style="color:var(--muted)">Estado: ${c.status}</span>`;
+    certs.appendChild(el);
   });
 }
 load();
